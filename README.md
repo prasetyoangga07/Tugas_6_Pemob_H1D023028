@@ -48,10 +48,11 @@ Pada aplikasi ini, data dari form dikirim ke halaman perkenalan menggunakan **Na
    );
 
 Di file tampil_data.dart, data diterima melalui konstruktor widget:
-```class TampilData extends StatelessWidget {
+```
+class TampilData extends StatelessWidget {
   final String nama;
   final String nim;
-  final int tahunLahir;```
+  final int tahunLahir;
 
   const TampilData({
     Key? key,
@@ -61,7 +62,7 @@ Di file tampil_data.dart, data diterima melalui konstruktor widget:
   }) : super(key: key);
 
   int _hitungUmur() => DateTime.now().year - tahunLahir;
-}```
+}
 
 
 
