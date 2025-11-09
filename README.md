@@ -12,11 +12,11 @@ lalu menampilkan hasil input tersebut di halaman kedua dalam bentuk **kalimat pe
 ---
 
 ## 🗂️ Struktur Folder
-``lib/
-├─ main.dart
-└─ ui/
-├─ form_data.dart // Halaman input data
-└─ tampil_data.dart // Halaman hasil perkenalan``
+``lib/ <br>
+├─ main.dart <br>
+└─ ui/ <br>
+├─ form_data.dart // Halaman input data <br>
+└─ tampil_data.dart // Halaman hasil perkenalan`` <br>
 
 
 ---
@@ -48,20 +48,20 @@ Pada aplikasi ini, data dari form dikirim ke halaman perkenalan menggunakan **Na
    );
 
 Di file tampil_data.dart, data diterima melalui konstruktor widget:
-``class TampilData extends StatelessWidget {``
-  ``final String nama;``
- `` final String nim;``
-  ``final int tahunLahir;``
+```class TampilData extends StatelessWidget {```
+  ```final String nama;```
+ ``` final String nim;```
+  ```final int tahunLahir;```
 
-  ``const TampilData({``
-    ``Key? key,``
-   `` required this.nama,``
-   `` required this.nim,``
-   `` required this.tahunLahir,``
- `` }) : super(key: key);``
+  ```const TampilData({```
+    ```Key? key,```
+   ``` required this.nama,```
+   ``` required this.nim,```
+   ``` required this.tahunLahir,```
+ ``` }) : super(key: key);```
 
- `` int _hitungUmur() => DateTime.now().year - tahunLahir;
-}``
+ ``` int _hitungUmur() => DateTime.now().year - tahunLahir;```
+}```
 
 
 
