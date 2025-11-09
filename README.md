@@ -5,6 +5,16 @@ SHIFT KRS A<br>
 SHIFT BARU A<br>
 <br>
 
+## DOKUMENTASI
+
+
+https://github.com/user-attachments/assets/a0066854-d133-43cb-8578-900cc4387b4e
+<img width="495" height="912" alt="Screenshot 2025-11-09 222430" src="https://github.com/user-attachments/assets/26cb614e-5324-4419-8c59-c3a9e6cf2671" />
+<img width="498" height="909" alt="Screenshot 2025-11-09 222405" src="https://github.com/user-attachments/assets/152c001e-924b-4b73-8859-5fb615193861" />
+
+---
+
+
 ## 🧩 Deskripsi
 Aplikasi Flutter ini berfungsi untuk **menginput data mahasiswa** berupa **Nama**, **NIM**, dan **Tahun Lahir** pada halaman form,  
 lalu menampilkan hasil input tersebut di halaman kedua dalam bentuk **kalimat perkenalan** beserta **umur yang dihitung otomatis**.  
